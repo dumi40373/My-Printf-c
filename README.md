@@ -10,10 +10,10 @@ Reproduction de la fonction printf en C.
 - Respect des normes EPITECH
 
 ## Compilation
-library make
+make
 
 ## Exemple d'utilisation
-my_printf("Hello %s" "World");
+./my_printf "Hello %s" "World"
 
 ## Auteur
 Dumitru Mardari, Ewann Saillard
