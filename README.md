@@ -1,19 +1,37 @@
-# Printf – Reproduction en C
+# My-Printf – Re-implementation of the C `printf` Function
 
 ## Description
-Reproduction de la fonction printf en C.
 
-## Compétences travaillées
-- Parsing
-- Gestion mémoire
-- Gestion des flags
-- Respect des normes EPITECH
+My-Printf is a re-implementation of the standard C library function `printf`.
+The project focuses on parsing format strings and reproducing formatted output behavior, while handling flags, conversions and memory management.
+
+## Project Goals
+
+- Understand format string parsing
+- Handle flags, width and precision
+- Reproduce standard formatted output behavior
+- Improve low-level programming skills
+
+## Technologies Used
+
+- Language: C
+- functions (`stdarg.h`)
+- Modular programming
+- Makefile
+
+## Implemented Features
+
+- Basic format specifiers (`%d`, `%i`, `%s`, `%c`, `%x`, `%o`, etc.)
+- Flag handling
+- Width and precision management
+- Parsing of format strings
+- Error handling
+- Modular architecture
 
 ## Compilation
-make
 
-## Exemple d'utilisation
-./my_printf "Hello %s" "World"
+library make
 
-## Auteur
-Dumitru Mardari, Ewann Saillard
+## Usage
+
+my_printf("Hello %s !\n", "World");
